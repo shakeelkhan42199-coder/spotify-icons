@@ -1,3 +1,9 @@
+let currentDate = document.getElementById('currentDate');
+const now = new Date;
+let month = now.getMonth() + 1;
+let day = now.getDate();
+let year = now.getFullYear();
+currentDate.textContent = ` ${day.toString().padStart(2,"0")} / ${month.toString().padStart(2,"0")} / ${year.toString().padStart(2,"0")}`;
 document.addEventListener("DOMContentLoaded", function () {
     // Digital Clock
     const digitalClock = document.getElementById("digitalClock");

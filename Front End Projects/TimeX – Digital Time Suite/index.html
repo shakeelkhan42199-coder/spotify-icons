@@ -8,20 +8,21 @@
     <link rel="icon" href="./clockIcon.jpg">
 </head>
 <body>
-
+    <h1 class="title">TimeX – Digital Time Suite</h1>
     <div class="container">
-        <h1 class="title">TimeX – Digital Time Suite</h1>
+        
 
         <div class="clock-section">
             <h2>Digital Clock</h2>
-            <div id="digitalClock">00:00:00</div>
+            <div class="digitalClock" id="currentDate" style="margin-bottom: 0.75rem;">00 / 00 / 0000</div>
+            <div class= "digitalClock" id="digitalClock" style="margin-bottom: 0.75rem;">00 : 00 : 00</div>
             <button id="btn12">12-Hour Format</button>
             <button id="btn24" disabled>24-Hour Format</button>
         </div>
 
         <div class="timer-section">
             <h2>Timer</h2>
-            <div id="timerDisplay">00 : 00</div>
+            <div id="timerDisplay" style="margin-bottom: 0.75rem;">00 : 00</div>
             <div class="timer-inputs">
                 <input type="number" id="timerMinutes" placeholder="Min">
                 <input type="number" id="timerSeconds" placeholder="Sec">
@@ -33,8 +34,8 @@
 
         <div class="stopwatch-section">
             <h2>Stopwatch</h2>
-            <div id="stopwatchDisplay">00:00:00:00</div>
-            <button id="startStopwatch">Start</button>
+            <div id="stopwatchDisplay" style="margin-bottom: 0.75rem;">00:00:00:00</div>
+            <button id="startStopwatch" style="">Start</button>
             <button id="pauseStopwatch" disabled>Pause</button>
             <button id="resetStopwatch" disabled>Reset</button>
             <button id="lapStopwatch" disabled>Lap</button>
