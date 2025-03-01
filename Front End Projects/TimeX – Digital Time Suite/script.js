@@ -46,8 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const startTimer = document.getElementById("startTimer");
     const pauseTimer = document.getElementById("pauseTimer");
     const resetTimer = document.getElementById("resetTimer");
-    const lapTimer = document.getElementById("lapTimer");
-    const timerLaps = document.getElementById("timerLaps");
 
     function updateTimerDisplay() {
         let minutes = Math.floor(timerTime / 60);
@@ -81,7 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
             startTimer.disabled = true;
             pauseTimer.disabled = false;
             resetTimer.disabled = false;
-            lapTimer.disabled = false;
         }
     });
 
@@ -100,16 +97,6 @@ document.addEventListener("DOMContentLoaded", function () {
         startTimer.disabled = false;
         pauseTimer.disabled = true;
         resetTimer.disabled = true;
-        lapTimer.disabled = true;
-        timerLaps.innerHTML = "";
-    });
-
-    lapTimer.addEventListener("click", () => {
-        if (timerRunning) {
-            const lapItem = document.createElement("li");
-            lapItem.textContent = timerDisplay.textContent;
-            timerLaps.appendChild(lapItem);
-        }
     });
 
     updateTimerDisplay();
