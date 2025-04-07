@@ -1,0 +1,12 @@
+h2{
+    display:inline;
+    background-color: mediumvioletred;
+}
+h1{
+    display:inline;
+}
+span{
+    display:block;
+    margin:100px;
+    background-color: mediumvioletred;
+}
