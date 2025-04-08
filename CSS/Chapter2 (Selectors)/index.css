@@ -1,0 +1,33 @@
+/* *{
+    background-color:rgb(254, 254, 254);
+} */
+span{
+    color:#b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup:active{
+
+    background-color: #100f0f;
+    color:white;
+}
+#signup:hover{
+    font-style: italic;
+}
+.upvote{
+    background-color:grey;
+}
+#nav ul li a:hover{
+    color:blueviolet;
+}
+#nav+p{
+    color:red;
+}
+.new>button{
+    color:azure;
+    background-color:black;
+}
+input[type="password"]{
+    color:red;
+}
