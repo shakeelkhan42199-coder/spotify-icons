@@ -1,0 +1,51 @@
+body{
+    background-color: yellow;
+}
+
+
+div{
+
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+   
+}
+
+.rotate{
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+   
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(120deg);
+    }
+
+    20%{
+        transform: rotateX(120deg);
+    }
+    
+}
+
+button{
+    margin-left: 48%;
+    
+}
+
+.dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0;
+    
+}
