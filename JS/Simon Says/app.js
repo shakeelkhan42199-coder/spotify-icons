@@ -1,7 +1,7 @@
 let gameSeq = [];
 let userSeq = [];
 
-let btns = ["yellow", "red", "purple", "green"];
+let btns = ["yellow", "red", "green", "blue"];
 
 let started = false;
 let level = 0;
@@ -50,11 +50,12 @@ function checkAns(idx) {
       setTimeout(levelUp, 1000);
     }
   } else {
-    h2.innerHTML = `Game Over! Your score was <b>${level}</b> <br> Press any key to start.`;
+    h2.innerHTML = `Game Over! Your score was <b>${level}<b/> <br> Press any key to start.`;
     document.querySelector("body").style.backgroundColor = "red";
     setTimeout(function () {
       document.querySelector("body").style.backgroundColor = "white";
     }, 150);
+
     reset();
   }
 }
