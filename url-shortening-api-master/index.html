@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Shorter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+    <section class="white">
+
+      <header>
+        <div class="name">Shorter</div>
+        <button id="home"><i class="fa-solid fa-bars"></i></button>
+        <div class="mob-view">
+
+          <div class="options">
+            <span><a href="">Features</a></span>
+            <span><a href="">Pricing</a></span>
+            <span><a href="">Resources</a></span>
+          </div>
+          <div class="login-btns">
+            <button id="login" class="top-btn">Login</button>
+            <button id="sign-up" class="top-btn">Sign Up</button>
+          </div>
+        </div>
+      </header>
+      
+      <section class="intro">
+        <div class="intro-img">
+          <img src="images/illustration-working.svg" alt="">
+        </div>
+        
+        <div class="intro-text">
+          <h1 class="bold-intro">More than just shorter links</h1>
+          <div class="normalfont-intro">Build your brand’s recognition and get detailed insights 
+          on how your links are performing.</div>
+          <button class="intro-get-started">Get Started</button>
+        </div>
+        
+      </section>
+    
+    </section>
+    <section class="link-input-bar">
+      <input type="text" placeholder="Shorten a link here..." id="input-link">
+      <button id="shorten-btn">Shorten It!</button>
+    </section>
+    <section class="grey">
+
+      <section class="history">
+
+      </section>
+
+      <section class="advance-stats">
+        <h2 class="stat-head">Advanced Statistics</h2>
+          <div class="stat-intro">
+            Track how your links are performing across the web with our 
+            advanced statistics dashboard.
+          </div>
+      </section>
+      <div class="line"></div>
+      <section class="stat-cards">
+        <div id="card1" class="cards">
+          <div class="card-img"><img src="images/icon-brand-recognition.svg" alt=""></div>
+          <div class="card-head">
+            Brand Recognition
+          </div>
+          <div class="card-content">
+            Boost your brand recognition with each click. Generic links don’t 
+            mean a thing. Branded links help instil confidence in your content.
+          </div>
+        </div>
+        
+        <div id="card2" class="cards">
+          <div class="card-img"><img src="images/icon-detailed-records.svg" alt=""></div>
+          <div class="card-head">
+            Detailed Records
+          </div>
+          <div class="card-content">
+            Gain insights into who is clicking your links. Knowing when and where 
+            people engage with your content helps inform better decisions.
+          </div>
+        </div>
+        <div id="card3" class="cards">
+          <div class="card-img"><img src="images/icon-fully-customizable.svg" alt=""></div>
+          <div class="card-head">
+            Fully Customizable
+          </div>
+          <div class="card-content">
+            Improve brand awareness and content discoverability through customizable 
+            links, supercharging audience engagement.
+          </div>
+        </div>
+      </section>
+
+
+    </section>
+
+    <section class="banner-boost">
+      <div class="banner-head">
+        <h1>Boost your links today</h1>
+      </div>
+      <button id="banner-get-started">Get Started</button>
+    </section> 
+
+    <footer>
+      <div class="footer-company-name">
+        Shorter
+      </div>
+      <div class="additional-links">
+        <ul class="features">
+          <div class="ul-head">Features</div>
+          <li><a href="">Link Shortening</a></li>
+          <li><a href="">Branded Links</a></li>
+          <li><a href="">Analytics</a></li>
+        </ul>
+
+        <ul class="resources">
+          <div class="ul-head">Resources</div>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Developers</a></li>
+          <li><a href="">Support</a></li>
+        </ul>
+
+        <ul class="company">
+          <div class="ul-head">Company</div>
+          <li><a href="">About</a></li>
+          <li><a href="">Our Team</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="social-media">
+        <a href="https://github.com/KrishnaKC15" target="_blank" id="github"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/krishna-chauhan-1672b8345/" target="_blank" id="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      
+    </footer>
+  
+    
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
