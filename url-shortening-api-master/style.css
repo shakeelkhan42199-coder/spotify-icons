@@ -1,0 +1,537 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+/* .container{
+    
+    /* position: relative; */
+    /* overflow-x: hidden; */
+/* } */ 
+header{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.white{
+    margin: 0;
+}
+.name{
+    font-size: 24px;
+    font-weight: bolder;
+    padding-right: 2em;
+}
+.options span{
+    display: inline-block;
+    padding: 0.3em 1.1em 0 0;
+
+    
+}
+.login-btns{
+    margin-left: auto;
+    
+}
+.mob-view{
+    flex: 2;
+}
+.top-btn{
+    width: 6em;
+    background-color: transparent;
+    border:none;
+    border-radius: 5em;
+    height: 2.5em;
+    
+}
+#sign-up{
+    background-color: hsl(180, 66%, 49%);
+}
+
+.intro{
+    width: 100%;
+    height:30em;
+    margin-top: -3em;
+    margin-left: -4em;
+}
+.intro-img{
+    width: 30%;
+    height: 60%;
+    margin-top: 3em;
+    position: absolute;
+    right: -30%;
+
+}
+.intro img{
+    width: 100%;
+    height: 100%;
+    /* transform: scale(0.7); */
+    /* position: absolute; */
+    right:0em;
+    /* top:-2em; */
+}
+.intro-text{
+    /* width: 100%; */
+    height: 100%;
+    padding-top:5em;
+    
+}
+.bold-intro{
+    font-size: 4em;
+    font-weight: bolder;
+}
+.normalfont-intro{
+    color: rgba(0, 0, 0, 0.501);
+}
+.intro-get-started{
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 5em;
+    width: 10em;
+    height: 3em;
+    margin-top: 1em;
+}
+
+
+.grey{
+    background-color: hsla(0, 0%, 75%, 0.416);
+    margin: 0  ;
+    width: 100%;
+}
+
+
+.history{
+    padding-top: 6em;
+}
+.intro{
+    transform: scale(0.8);
+}
+
+.link-input-bar{
+    width: 100%;
+    height: 6em;
+    background-image: url(images/bg-shorten-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 27%, 26%);
+    position: absolute;
+    top: 27.5em;
+
+}
+#input-link{
+    display: inline-block;
+    width: 75%;
+    height: 50%;
+    /* border-radius: 2em; */
+    margin-top: 1.5em;
+    margin-left: 4%;
+    /* border: none; */
+    
+}
+
+#shorten-btn{
+    height: 50%;
+    width: 15%;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 5em;
+}
+
+.advance-stats{
+    text-align: center;
+    margin: 4em 25%;
+    
+}
+
+.stat-head{
+    font-weight: 800;
+    font-size: 2em;
+}
+.stat-intro{
+    padding-top: 1em;
+    color: rgba(0, 0, 0, 0.501);
+}
+.stat-cards{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+.cards{
+    width: 15em;
+    height: 20em;
+    background-color: white;
+    
+    /* margin-top: 1em; */
+    display: inline-block;
+    padding: 1em;
+    /* margin-right: 4em; */
+    margin-bottom: 10em;
+}
+.card-img{
+    width: 3.5em;
+    height: 3.5em;
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 50%;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+    top: -3em;
+}
+.card-img img{
+    margin-top: 0.5em;
+}
+.line
+{
+    width:80%;
+    height:0.4em;
+    margin-left: 8%;
+    background-color: hsl(180, 100%, 50%);
+    position: relative;
+    z-index: -1;
+    top: 10em;
+}
+
+#card2{
+    margin: auto;
+    margin-top: 3em;
+    
+}
+#card3{
+    margin-right: auto;
+    margin-top: 6em;
+    margin-right: 0;
+    
+}
+.card-head{
+    font-weight: 800;
+    font-size: larger;
+    margin-bottom: 1em;
+}
+.card-content{
+    color: rgba(0, 0, 0, 0.501);
+}
+
+.banner-boost{
+    display: flex;
+    background: url(images/bg-boost-desktop.svg);
+    background-size: cover;
+    flex-direction: column;
+    width: 100vw;
+    height: 10em;
+    /* margin-left: -6em; */
+    background-color: hsl(257, 27%, 26%);
+    align-items:center;
+    justify-content: space-evenly;
+}
+.banner-head{
+    color: white;
+    font-size: larger;
+}
+#banner-get-started{
+    background-color: hsl(180, 66%, 49%);
+    width: 10em;
+    height: 2.5em;
+    border-radius: 2em;
+}
+#banner-get-started:hover,#sign-up:hover,.intro-get-started:hover,#shorten-btn:hover{
+    background-color: hsl(180, 69%, 77%);
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+
+}
+.history-anchors{
+    display: flex;
+    border-radius: 1em;
+    justify-content: space-between;
+    width: 80%;
+    height: 3em;
+    background-color: white;
+    text-decoration: none;
+    color: aqua;
+    
+    margin:2em auto;
+    margin-bottom: 0;
+}
+.history-anchors a{
+    text-decoration: none;
+    margin-top: 0.5em;
+    color: black;
+    margin-left: 1em;
+}
+
+.copy-btn{
+    border: none;
+    background-color: white;
+    margin-right: 1em;
+}
+
+.verify{
+    position: sticky;
+    width: 15em;
+    height: 0.5em;
+    background-color: white;
+    border-radius: 2em;
+    bottom: 0em;
+    text-align: center;
+    padding: 1em 0 1.8em;
+    margin: auto;
+    z-index: 4;
+}
+.wrong{
+    color:red;
+    border-color: red;
+}
+.wrong::placeholder{
+    color: red;
+}
+
+footer{
+    background-color: hsl(260, 8%, 14%);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+}
+footer div{
+    margin:8em 0;
+}
+
+
+.additional-links{
+    display: flex;
+    margin-top: 7em;
+    line-height: 2em;
+    flex: 2;
+    flex-wrap: wrap;
+}
+.additional-links ul{
+
+    margin-right: 10%;
+    list-style-type: none;
+    
+}
+
+.footer-company-name{
+    font-size: 2em;
+    margin: 3em 10% 0 10%;
+    font-weight: bold;
+}
+.ul-head{
+    font-weight: bold;
+    margin: 0;
+}
+
+.additional-links ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.377);
+}
+.social-media{
+    margin-right:10% ;
+}
+.social-media a{
+    color: white;
+    font-size: 2em;
+    margin-left: 1em;
+}
+.options a{
+    color: black;
+    text-decoration: none;
+}
+#home{
+    border: none;
+    background-color: white;
+    display: none;
+}
+.mob-view{
+    display: flex;
+}
+@media (max-width:1126px) {
+    .stat-cards ,.line{
+        /* transform: scale(0.8); */
+        margin-right:0 ;
+        margin-left:0 ;
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+@media (max-width:1000px) {
+    .stat-cards ,.line{
+        transform: scale(0.8);
+        width: 110%;
+        margin-left: -4em;
+        flex: 1;   
+    }
+    .footer-company-name{
+        margin-right: 10%;
+        margin-left: 5%;
+    }
+    footer div{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+@media (max-width:785px) {
+    .advance-stats{
+        margin-bottom: 0em;;
+    }
+    .stat-cards{
+        
+        transform: scale(1);
+        flex-direction: column;
+        align-items: center;
+        justify-items: self-start;
+        padding-bottom: 0.8em;
+        padding-top: 0;
+        
+        margin: -42em auto 0 auto;
+    }
+    #card2{
+        margin: 1em 0 0 0 ;
+    }
+    #card3{
+        margin:1em 0 0 0 ;
+    }
+    .cards{
+        margin: 0;
+    }
+    .line{
+        width:0.4em;
+        height:50em;
+        margin-left: 8%;
+        background-color: hsl(180, 100%, 50%);
+        position: relative;
+        z-index: -1;
+        top: 20em;
+        margin: auto;   
+    }
+    
+
+    .social-media{
+        margin-right: 0;
+    }
+    .social-media *{
+        margin-left: 0.2em;
+        /* margin-right: 0.2em; */
+    }
+}
+@media (max-width:700px) {
+    .mob-view{
+        display: none;
+        width: 60%;
+        height: 40%;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: 3em;
+        top: 3em;
+        z-index: 2;
+        background-color: hsl(257, 27%, 26%);
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+    .options span{
+        margin-top: 0.5em;
+        text-align: center;
+        font-weight: 500;
+    }
+    .options a{
+        color:white ;
+        
+    }
+    .login-btns{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1em;
+        margin-top: -1em;
+    }
+    #sign-up{
+        width: 10em;
+    }
+    .top-btn{
+        color: white;
+    }
+    #home{
+        display: inline;
+        position: absolute;
+        right: 1em;
+        font-size: 1em;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        transform: scale(0.6);
+        width: 130%;
+        height: 30em;
+        margin-left: -4.8em;
+    }
+    .intro-img{
+        position: inherit;
+        width: 100%;
+        height: 100%;
+        margin-top: -11em;
+        margin-bottom: -5em;
+        transform: scale(0.8);
+    }
+    .bold-intro{
+        font-size: 2em;
+    }
+    .intro-text{
+        margin-top: -1em;
+        margin-bottom: 1em;
+    }
+    .link-input-bar{
+        bottom: 10%;
+    }
+}
+.visible-menu{
+    display: block;
+}
+.hidden-menu{
+    display: none;
+}
+@media (max-width:640px) {
+    .link-input-bar{
+        display: flex;
+        flex-direction: column;
+    }
+    #input-link{
+        width: 90%;
+        margin: 0.4em auto;
+    
+    }
+    #shorten-btn{
+        width: 100%;
+    }
+    .history-anchors{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .additional-links{
+        flex-direction: column;
+        
+    }
+}
