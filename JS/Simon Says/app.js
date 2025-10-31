@@ -1,3 +1,4 @@
+//learning forking
 let gameSeq = [];
 let userSeq = [];
 
