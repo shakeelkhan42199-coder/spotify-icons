@@ -60,13 +60,15 @@ function checkAns(idx) {
 }
 
 function btnPress() {
-  let btn = this;
+  if(started==true){
+    let btn = this;
   userFlash(btn);
 
   userColor = btn.getAttribute("id");
   userSeq.push(userColor);
 
   checkAns(userSeq.length - 1);
+  }
 }
 
 let allBtns = document.querySelectorAll(".btn");
