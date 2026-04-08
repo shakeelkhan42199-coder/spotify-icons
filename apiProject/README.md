@@ -15,6 +15,7 @@ This project uses the Hipolabs University API - GET http://universities.hipolabs
 1. 🔍 Search universities by state name in India
 2. 🌐 Fetches live data using REST API
 3. 📋 Displays university name, state.
+4. ⚡ Dynamic rendering with JavaScript
 
 ## 🙋‍♂️ Author
 Ashlesha Meshram
