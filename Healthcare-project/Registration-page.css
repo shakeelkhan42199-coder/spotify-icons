@@ -1,0 +1,138 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{ 
+width: 100%;
+height: 100%;
+display:flex;
+justify-content: center;
+align-items: center;
+background-color: #36d7ec;
+background-image:url(register-backg-img.jpeg) ;
+background-size: cover;
+}
+.container{
+    width:50%;
+    height:365px;
+    padding:25PX;
+    border-radius:5px;
+    background-color:transparent;
+    display:inline-block;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    flex-wrap:wrap;
+    
+}
+.img{
+position: absolute;
+right:23.5%;
+top:50.2%;
+
+transform:translateY(-50%);
+z-index:1;
+
+}
+.img img{
+    width:367px;
+    height:414px;
+    object-fit: cover;
+    border-radius:5px 5px 2x;
+    box-shadow:0 0 10px rgba(20, 20, 20, 0.1);
+}
+input{
+    padding-bottom:10px;
+    width:34%;
+    font-size: 15px;
+    line-height:15px;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1.4px solid  ;
+    padding: 10px 0 10px 20px;
+}
+input:hover{
+background-color: rgba(149, 143, 143, 0.37);
+border: 1px solid rgb(31, 78, 190);
+border-radius: 10px;
+
+}
+label{
+    display: block;
+    margin-bottom:30px;
+}
+#register{
+    font-size: 10px;
+    width:38%;
+    background-color:#d1f6f8;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin-left:22px;
+    font-weight: bolder;
+    
+}
+#register a{
+    color: #000;
+}
+#register a:hover{
+    color: white;
+}
+#register:hover{
+    color: #fff;
+    background-color:rgb(31, 78, 190);
+    transition-duration: 1.5s;
+    
+}
+.join{
+    font-size:2.1em;
+    margin-left:1.2em;
+    margin-bottom: 0.8em;
+}
+i{
+    padding: 8px 5px 3px 5px;
+}
+span{
+    color: rgb(36, 182, 36);
+    font-weight: bolder;
+}
+@media(max-width:1200px){
+    .container{
+        width:95%;
+        padding:120px;
+        border:none;
+    }
+    .img{
+        position: static;
+        transform:none;
+        width:100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .img img{
+        width:83%;
+        max-width: 100%;
+        display: flex;
+        justify-content:start;
+        border: 1px solid #000;
+        border-radius:10px;
+        box-shadow: rgba(0,0,0,0.5);
+        background-size:cover;
+    }
+    input{
+        justify-content: center;
+        width:80%;
+        text-align: justify;
+    }
+    #register{
+        width:80%;
+        font-size: larger;
+    }
+    .join{
+        font-size:80px;
+
+    }
+}
