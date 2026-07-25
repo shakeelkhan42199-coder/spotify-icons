@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-image: url(background-img.jpeg);
+    background-size: cover;
+}
+#content{
+    height: 400px;
+    width: 340px;
+    background-color:whitesmoke;
+    border: none;
+    border-radius:0px 10px 10px 0px;
+    
+}
+#img{
+    height: 400px;
+    width: 340px;
+    background-image: url(dataset-card.jpg);
+    background-size: cover;
+    border: none;
+    border-radius:10px 0px 0px 10px;
+}
+#logo{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(0, 102, 120);
+}
+#logo span{
+    text-decoration: underline;
+    text-decoration-color: rgb(69, 15, 219);
+}
+.inner{
+    margin-left: 20px;
+}
+#email,#password{
+    height: 50px;
+    width: 90%;
+    margin:10px 0px 10px 0px;
+    position: relative;
+}
+.inner input{
+    height: 100%;
+    width: 100%;
+    padding-left: 30px;
+    border: none;
+    border-bottom: 2px solid;
+    background-color: whitesmoke;
+    outline: none;
+    border-color: rgb(0, 102, 120);
+}
+i{
+    position: absolute;
+    top: 16px;
+    padding: 0px 5px 0px 5px;
+    color: rgb(0, 102, 120);
+}
+.click{
+    text-align: center;
+    background-color: whitesmoke;
+    width: 91%;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 102, 120);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+#info,#register{
+    padding-top: 7px;
+}
+#info{
+    margin-top: 40px;
+    background: none;
+}
+#register a{
+    color: rgb(0,102,120);
+    font-weight: 900;
+}
+#info a{
+    color: rgb(0,102,120);
+}
+.inner input:hover{
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(0, 102, 120);
+}
+button:hover{
+    background-color: rgb(10, 63, 100);
+    transition-duration: 1s;
+}
+#register:hover{
+    background-color: rgb(167, 218, 250);
+    transition-duration: 1s;
+}
+#register{
+     border: 1px solid rgb(0,102,120);
+}

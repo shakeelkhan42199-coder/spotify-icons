@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPOINTMENT BOOK</title>
+    <link rel="stylesheet" href="appointment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="img-d">
+          <a href="">
+            <img src="MEDI CARE (2).jpg" alt="LOGO IMG" class="logo-img"/>
+          </a>
+        </div>
+        <ul>
+          <li class="nav-itm"><a href="homepage.html" style="margin-right: 20px;">Home</a></li>
+         
+           <div class="search-i">
+            <i class="fa-solid fa-magnifying-glass" id="search-i"></i>
+            <input type="text" placeholder="Search...." />
+          </div> 
+         
+        </ul>
+      </nav>
+
+    <div id="appointment">
+        <span class="book-tex">BOOK YOUR VIST</span>
+        <h2 class="appoint-text">seamless Medical Appointments <br> With Human Touch</h2>
+        <p class="appoint-p">Schedule your consultation with world-class specialists in just a few clicks. <br> Experience clinical precision and modern healthcare innovation.</p>
+    </div>
+    <div id="appoint-m-box">
+        <div id="appoint-form">
+        <h2 class="appoint-f-tex">Personal Details & Consultation</h2>
+        <form action="">
+            <div class="column">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="fullname" value="" placeholder="subham biswal" required>
+            </div>
+            <div class="column">
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email" value="" placeholder="john@example.com" required> 
+            </div>
+            <div class="column">
+            <label for="number">Phone Number</label><br>
+            <input type="number" id="number" name="number" value="" placeholder="+1 (555) 000-0000" required>
+            </div>
+            <div class="column">
+            <label for="doctorname">Select Doctor</label><br>
+            <select name="doctor" id="doctorname">
+                <option value="">Dr.Sarah Chen-Cardiology</option>
+                <option value="">Dr.Sarah Chen-Cardiology</option>
+                <option value="">Dr.Sarah Chen-Cardiology</option>
+                <option value="">Dr.Sarah Chen-Cardiology</option>
+                <option value="">Dr.Sarah Chen-Cardiology</option>
+                <option value="">Dr.Sarah Chen-Cardiology</option>
+                <option value="">Dr.Sarah Chen-Cardiology</option>
+                <option value="">Dr.Sarah Chen-Cardiology</option>
+            </select>
+            </div><br>
+            <label for="date" class="form-lbl">Preferred Date</label><br>
+            <input type="date" id="date" name="date" value=""><br>
+            <label for="message" class="form-lbl">Your Message or Symptoms</label><br>
+            <textarea name="message" id="message" rows="5">How Can We Help You today?</textarea><br>
+            <button id="appoint-btn">Confirm Appointment&#128197;</button>
+        </form>
+        </div>
+        <div id="prio-m-box">
+        <div class="priority-care">
+            <div class="prio-box2">
+                <i class="fa-solid fa-notes-medical"></i>
+            <h3 class="prio-tex">Priority Care</h3>
+            <p class="prio-p">Available 24/7 for emergency <br> booking  and remote consultations.</p>
+            </div>
+        </div>
+          <div class="priority-care">
+            <div class="prio-box2">
+                <i class="fa-solid fa-ranking-star"></i><br>
+            <span class="satis-f">Pataient Satisfaction</span>
+            <input type="range" value="90"><br>
+            <span class="rate-n">4.9/5</span><br>
+            <span class="prio-rating">Avarage Rating</span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="appoint-box2">
+        <div class="box2-inner">
+            <div class="box2-i">
+                <i class="fa-regular fa-envelope"></i>    
+            </div>
+            <h3>Email Support</h3>
+            <p>Our team typically responds within2<br>hours during business hours.</p>
+            <span><a href="">Support@medicare.com</a></span>
+        </div>
+        <div class="box2-inner">
+            <div class="box2-i">
+                 <i class="fa-solid fa-phone-volume"></i>
+            </div>           
+            <h3>Emergency Hotline</h3>
+            <p>Dedicated line for urgent medical<br>inquiries and scheduling.</p>
+            <span>+1(800) 555-0199</span>
+        </div>
+        <div class="box2-inner">
+            <div class="box2-i">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>           
+            <h3>Primary Clinic</h3>
+            <p>24th innovation drive,medicine district,<br>san francisco, CA 94103.</p>
+            <a href="">Support@medicare.com</a>
+        </div>
+    </div>
+    
+     <footer id="footer">
+            <div id="footer-box1">
+                <div class="footer-box2">
+                    <h3 class="foot-heading">Medi Care</h3>
+                    <p>Bridging the gap bettween cutting-edge pharmaceutical research and compassionate patient care. innovating foe a healthier tomorrow</p>
+                    <div id="footer-i">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="" class="foot-a-i"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="" class="foot-a-i"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-box2">
+                    <h3 class="foot-heading">Quick Link</h3>
+                    <ul>
+                        <li><a href="">About Our Clinic</a></li>
+                        <li><a href="">Speciallists</a></li>
+                        <li><a href="">Medical Services</a></li>
+                        <li><a href="">Pharmacy</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box2">
+                    <h3 class="foot-heading">Paitaint Support</h3>
+                    <ul>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms Of Service</a></li>
+                        <li><a href="">Contact Support</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Insurance Plans</a></li>
+                    </ul>
+                </div>
+                 <div class="footer-box2">
+                    <h3 class="foot-heading">Newsletter</h3>
+                    <p>Get the latest health update and medical breakthrough delivered to your inbox.</p>
+                    <input id="footer-inp" type="email" placeholder="Email Addres">
+                    <button id="foot-btn">Subscribe Now</button>
+                </div>
+            </div>
+            <hr>
+            <div id="last-foot-sec">
+                    <p>2024 MediCare. All rights reserved. | Designing for a healthier World.</p>
+            </div>
+    </footer>
+</body>
+</html>
