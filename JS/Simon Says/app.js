@@ -45,6 +45,7 @@ function levelUp() {
 }
 
 function checkAns(idx) {
+  highScore();
   if (userSeq[idx] === gameSeq[idx]) {
     if (userSeq.length == gameSeq.length) {
       setTimeout(levelUp, 1000);
@@ -79,4 +80,10 @@ function reset() {
   gameSeq = [];
   userSeq = [];
   level = 0;
+}
+
+function highScroe() {
+    let highS = level;
+    let h3 = document.querySelector("h3");
+    h3.innerHTML = `high score : ${level}`;
 }
